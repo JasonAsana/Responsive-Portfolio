@@ -1,0 +1,138 @@
+a {
+	text-decoration:none;
+	color:#777777
+}
+
+a:hover {
+	font-weight:bold;
+	color:#4aaaa5;
+}
+
+/*header section**/
+body {
+	background:#ebebeb;
+	padding:0;
+	margin:0;
+}
+
+header {
+	background:white;
+	min-height:100px;
+}
+
+div#main-logo {
+	position:absolute;
+	top:20px;
+	margin-left:5%;
+	padding:0 20px 0 20px;
+	background:#4aaaa5;
+	color:white;
+	float:left;
+}
+
+header ul {
+	margin:0;
+	padding:0;
+}
+
+header li {
+	display:inline;
+	padding:10px;
+	
+}
+
+nav {
+	float:right;
+	padding-top:40px;
+	margin-right:5%;
+}
+
+/*main section**/ 
+main {
+	clear:both;
+	margin-left:5%;
+}
+
+section {
+	background:white;
+	color:#777777;
+	margin-top:30px;
+	margin-right:25px;
+	margin-bottom:30px;
+	max-width:55%;
+	padding:25px;
+	float:left;
+	width:60%
+}
+
+section h2 {
+	color:#4aaaa5;
+	margin:0;
+	padding:0;
+}
+
+section img {
+	float:left;
+}
+
+/**form section**/
+form {
+	line-height:30px;
+}
+
+/*button global**/
+button {
+	background:#4aaaa5;
+	color:white;
+	border:none;
+	padding:5px 10px 5px 10px;
+}
+
+/*side section**/
+h3 {
+	margin:0;
+	padding:0;
+	color:#4aaaa5;
+}
+
+aside {
+	float:right;
+	background:white;
+	padding:25px;
+	margin-top:30px;
+	margin-right:5%;
+	margin-bottom:30px;
+}
+
+footer {
+	clear:both;
+	border-top:5px solid #4aaaa5;
+	text-align:center;
+	background:#666666;
+	
+	padding:20px;
+	position:relative;
+	bottom:0;
+	left:0;
+	right:0;
+	height:30px;
+}
+
+/* media queries **/
+@media(max-width:768px){
+	
+section, aside {
+	float:none;
+	text-align:center;
+	width:100%;	
+}
+
+section {
+	max-width:none;
+}
+
+
+
+
+
+
